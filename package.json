@@ -10,7 +10,7 @@
     "test": "jest",
     "lint": "eslint .",
     "prettier": "prettier --write .",
-    "prettier:check": "npm prettier -- --check"
+    "prettier:check": "npx prettier -- --check"
   },
   "dependencies": {
     "express": "^4.17.1"

@@ -1,8 +1,8 @@
 import request from 'supertest';
 import { app, server } from '../server';
 
-afterAll(() => {
-  server.close();
+afterAll((done) => {
+  server.close(done);
 });
 
 describe('DELETE /api/books/:id', () => {
