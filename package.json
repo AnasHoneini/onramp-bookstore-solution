@@ -9,8 +9,8 @@
     "start": "npm run build && node dist/server.js",
     "test": "jest",
     "lint": "eslint .",
-    "prettier": "prettier --write .",
-    "prettier:check": "yarn prettier -- --check"
+    "prettier:check": "prettier --check 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "prettier:write": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "dependencies": {
     "express": "^4.17.1"
